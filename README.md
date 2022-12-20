@@ -2,9 +2,9 @@
 
 ## Description
 
-    For this project, I wanted to present all the skills that I have learned within my first week of programming. Through this portfolio,  I was able to deepen my knowledge of HTML. The porfolio also doubly served as a way to flex my creative juices. While doing this project, I learned how to build robust HTML layout while simultaenously learning how to independently style each element. 
-
-    This project will serve as my portfolio, so I want to be able to include information about myself, my work, and how to get in contact with me. Additionally, I want ensure that I am including mindful styling that will make my portfolio that is able to show of my skills to anyone who might be viewing this. 
+ For this project, I wanted to present all the skills that I have learned within my first week of programming. Through this portfolio,  I was able to deepen my knowledge of HTML. The porfolio also doubly served as a way to flex my creative juices. While doing this project, I learned how to build robust HTML layout while simultaenously learning how to independently style each element. 
+ 
+ This project will serve as my portfolio, so I want to be able to include information about myself, my work, and how to get in contact with me. Additionally, I want ensure that I am including mindful styling that will make my portfolio that is able to show of my skills to anyone who might be viewing this. 
 
 
 ## Learning Points // Features
