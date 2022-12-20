@@ -13,11 +13,12 @@
     font-family: var(--mainfont);
     color: var(--maintext);
     font-weight: bolder;
+    border: hotpink dashed 1px;
 }
  
 html {
     height: 100vh;
-    width:auto;
+    width: 98vw;
 }
 
 body {
@@ -72,16 +73,15 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    row-gap: 35px;
-    overflow: hidden;
+    row-gap: 25px;
 }
 
 main .mypicture {
     position: absolute;
-    top: 0;
+    top: 60%;
     bottom: 1;
-    right: 0;
-    left: 1;
+    right: 1;
+    left: 15%;
     width: 175px;
     height: 225px;
     z-index: 1;
@@ -179,14 +179,6 @@ header {
 }
 
 
-/* .drawer-contact {
-    display: inline;
-}
-
-.drawer-contact ul {
-    list-style: none;
-    display: inline;
-} */
 
 
 .about-grid {
@@ -242,14 +234,17 @@ footer {
 
 .link {
     font-family: sans-serif;
-    font-size: 34px;
-    display: inline;
-    position: relative;
+    font-size: 36px;
     color: var(--primary-color);
     font-weight: bold;
     text-decoration: none;
 }
 
+
+.con-link {
+    display: inline;
+    font-size: 24;
+}
 
 /* underline effect gradient */
 .link::after {
@@ -309,7 +304,7 @@ footer {
 .checkbtn:checked + label:after {
     top: 0;
     width: 50px;
-    transform-origin: 50% 50%;
+    transform-origin: 25% 25%;
 }
 
 .checkbtn:checked + label:before {
@@ -424,7 +419,6 @@ footer {
 }
 
 
-
 .article-flex {
     display: flex;
     flex-direction: column;
@@ -484,17 +478,17 @@ footer {
 .drawer-works .gallery-items .gallery-img {
     display: block;
     max-width: 100%;
-  }
+}
   
-  .gallery-nav {
+.gallery-nav {
     overflow: hidden;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-gap: 10px;
-  }
+}
   
-  .gallery {
+.gallery {
     overflow: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -514,7 +508,8 @@ footer {
 }
 
 a {
-    height: 200px;
+    height: 40px;
+    width: auto;
     display: flex;
     margin-bottom: 10px;
 }
