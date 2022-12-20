@@ -23,7 +23,7 @@ html {
 body {
     width: 100%;
     height:auto;
-    background-size: 100% 100%;
+    background-size: 400% 400%;
     background-image: linear-gradient(
           -45deg, 
           rgb(0, 8, 12) 0%, 
@@ -49,7 +49,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #660c70;
+    background: rgb(0, 8, 12);
     border-radius: 25px;
 }
 
@@ -180,6 +180,7 @@ header {
 
 
 
+/* set card grid for about section */
 
 .about-grid {
     display: grid;
@@ -259,6 +260,8 @@ footer {
     transform: scaleX(0);
 }
 
+
+/* makes the effect happen from the bottom left */
 .link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom right;
@@ -271,6 +274,7 @@ footer {
   } 
 
 
+  /* creates checkbutton box and position */
 .checkbtn {
     position: fixed;
     display: none;
@@ -281,11 +285,12 @@ footer {
     margin: auto;
     width: 15px;
     height: 30px;
-    z-index: 2;
+    z-index: 0;
     cursor: pointer;
     background-color: orange;
 }
 
+/* create checkbutton interactivity and effects */
 .checkbtn:hover + label,
 .checkbtn:hover + label:before,
 .checkbtn:hover + label:after {
@@ -295,10 +300,13 @@ footer {
     box-shadow: inset 5x 5x 10x orange;
 }
 
+/* handles the checked state */
 .checkbtn:checked + label {
     background: var(--accent-1);
 }
 
+
+/* transform origin of nav menu */
 .checkbtn:checked + label:before,
 .checkbtn:checked + label:after {
     top: 0;
@@ -337,6 +345,9 @@ footer {
 .menu-toggle:checked ~ ul .menu-item a {
     pointer-events: auto;
 }
+/* transformations based on child, they are the parent element of the link items */
+
+
 
 .checkbtn + label {
     width: 50px;
@@ -370,7 +381,6 @@ footer {
     border-radius: 2.5px;
     background-color: var(--accent-1);
     transition: transform 0.5s top 0.5s;
-    content: "";
     position: absolute;
     display:block;
     left: 0;
