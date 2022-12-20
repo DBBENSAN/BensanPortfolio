@@ -13,7 +13,6 @@
     font-family: var(--mainfont);
     color: var(--maintext);
     font-weight: bolder;
-    border: hotpink dashed 1px;
 }
  
 html {
@@ -167,6 +166,7 @@ header {
 .drawer-works {
     min-width: 95;
     display: flex;
+    flex-direction: column;
     top: 900px;
     border-radius: 15px;
     padding: 50px;
@@ -206,7 +206,6 @@ header {
     grid-column: 4 / 6;
     grid-row: 1 / 5;
     align-items: center;
-    z-index: 2;
 }
 
 
@@ -328,7 +327,7 @@ footer {
 }
 
 .checkbtn:checked ~ ul .menu-item:nth-child(3) {
-    transform: rotate(-40deg) translateX(-300px);
+    transform: rotate(-40deg) translateX(-285px);
 }
 
 .checkbtn:checked ~ ul .menu-item:nth-child(4) {
@@ -445,6 +444,10 @@ footer {
     color: #fff;
 }
 
+.works-card{
+    width: 900px;
+}
+
 .works-grid .works-card h3 {
     flex-basis: 100;
 }
@@ -509,9 +512,9 @@ footer {
 
 a {
     height: 40px;
-    width: auto;
     display: flex;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .gallery-img {
