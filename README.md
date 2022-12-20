@@ -9,8 +9,8 @@
 
 ## Learning Points // Features
 
-+ Using CSSSS grid elements, for positioning elements across the page.
-+ Media Queries and Flexboxes, give my page device compatibility.
++ By using CSS grid elements, for positioning elements across the page.
++ Through media Queries and Flexboxes, give my page device compatibility.
 + Working links across the page, including a link to my projects and repository.
 + Added a nav bar with responsiveness.
 + Image slideshow / scrollbar with links to projects.
