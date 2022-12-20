@@ -493,18 +493,9 @@ footer {
     max-width: 100%;
 }
   
-.gallery-nav {
-    overflow: hidden;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-gap: 10px;
-}
   
 .gallery {
     overflow: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
 }
   
 .gallery-items {
